@@ -1,29 +1,13 @@
 ---
-title: "Hello, Quarto"
-format: html
+title: "Quarto Basics"
+format:
+  html:
+    code-fold: true
+jupyter: python3
 ---
 
-## Markdown
+For a demonstration of a line plot on a polar axis, see @fig-polar.
 
-Markdown is an easy to read and write text format:
 
-- It's _plain text_ so works well with version control
-- It can be **rendered** into HTML, PDF, and more
-- Learn more at: <https://quarto.org/docs/authoring/>
-
-## Code Cell
-
-Here is a Python code cell:
-
-```{python}
-import os
-os.cpu_count()
-```
-
-## Equation
-
-Use LaTeX to write equations:
-
-$$
-\chi' = \sum_{i=1}^n k_i s_i^2
-$$
+----------
+HI hello
